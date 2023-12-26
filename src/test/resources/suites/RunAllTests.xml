@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Self-Service Testing" >
+    <test name="Test All Cases" parallel="methods">
+        <classes>
+            <class name="projects.potslotty.testcases.commons.Earn"/>
+            <class name="projects.potslotty.testcases.commons.Game"/>
+            <class name="projects.potslotty.testcases.commons.Header"/>
+            <class name="projects.potslotty.testcases.commons.Login"/>
+            <class name="projects.potslotty.testcases.commons.Results"/>
+            <class name="projects.potslotty.testcases.commons.Tournament"/>
+            <class name="projects.potslotty.testcases.commons.Upcoming"/>
+        </classes>
+    </test>
+<!--    <test name="Test non parallel">-->
+<!--        <classes>-->
+<!--            &lt;!&ndash;            <class name="selfservice.testcases.TestLandingPage"/>&ndash;&gt;-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

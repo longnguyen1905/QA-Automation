@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Self-Service Testing" >
+    <test name="Test All Cases">
+        <classes>
+            <class name="projects.self_service.testcases.TestLandingPage"/>
+            <class name="projects.self_service.testcases.TestPackagePage"/>
+        </classes>
+    </test>
+</suite>
